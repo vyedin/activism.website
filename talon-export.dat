@@ -1,0 +1,31 @@
+a:4:{s:8:"template";s:5:"talon";s:4:"mods";a:13:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:7:"primary";i:8;s:6:"footer";i:15;}s:18:"custom_css_post_id";i:543;s:13:"slide_image_2";s:0:"";s:13:"slide_image_3";s:0:"";s:13:"slide_image_1";s:0:"";s:13:"primary_color";s:7:"#2c4c6b";s:15:"footer_bg_color";s:7:"#01102d";s:12:"footer_color";s:7:"#4f5d75";s:13:"slide_title_1";s:0:"";s:15:"slide_btn_url_1";s:0:"";s:17:"slide_btn_title_1";s:0:"";s:16:"slide_subtitle_1";s:0:"";}s:7:"options";a:17:{s:29:"nf_popups[548][overlay_color]";s:7:"#000000";s:31:"nf_popups[548][overlay_opacity]";s:2:"80";s:33:"nf_popups[548][container_padding]";s:2:"29";s:42:"nf_popups[548][container_background_color]";s:0:"";s:31:"nf_popups[548][container_width]";s:3:"45%";s:32:"nf_popups[548][container_height]";s:0:"";s:38:"nf_popups[548][container_width_mobile]";s:3:"90%";s:39:"nf_popups[548][container_height_mobile]";s:0:"";s:39:"nf_popups[548][container_border_radius]";s:0:"";s:42:"nf_popups[548][container_border_thinkness]";s:0:"";s:38:"nf_popups[548][container_border_color]";s:0:"";s:38:"nf_popups[548][container_border_style]";s:0:"";s:30:"nf_popups[548][open_animation]";s:6:"fadeIn";s:36:"nf_popups[548][close_btn_top_margin]";s:0:"";s:38:"nf_popups[548][close_btn_right_margin]";s:0:"";s:9:"site_icon";s:3:"300";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:561:".button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.give-btn {
+	background-color: #2c4c6b;
+	color: #fff;
+	font-size: 13px;
+	border: 0;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	display: inline-block;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: all 300ms ease 0s;
+	line-height: 1.9;
+}
+.button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.give-btn:hover {
+	color: #fff;
+	background-color: #2c4c6b;
+}
+
+button.mfp-close:hover {
+  background: transparent;
+}";}
