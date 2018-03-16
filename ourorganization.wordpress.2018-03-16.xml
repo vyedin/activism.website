@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.4" created="2018-03-16 00:18" -->
+<!-- generator="WordPress/4.9.4" created="2018-03-16 01:02" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Our Organization</title>
 	<link>http://activism.website</link>
 	<description></description>
-	<pubDate>Fri, 16 Mar 2018 00:18:22 +0000</pubDate>
+	<pubDate>Fri, 16 Mar 2018 01:02:50 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://activism.website</wp:base_site_url>
@@ -3112,7 +3112,7 @@ Aliquam eleifend, elit suscipit convallis fermentum, libero enim fermentum purus
  	<li>A short blurb of what your organization does, and a contact email address</li>
  	<li>A few facts and statistics you want to highlight about the group (press mentions, number of members, number of actions).</li>
  	<li>A short pitch for joining</li>
- 	<li>A link to a youtube or vimeo vide you'd like to showcase</li>
+ 	<li>A link to a youtube or vimeo video you'd like to showcase</li>
  	<li>A short donation pitch</li>
 </ul>
 That's it! Let's start editing.
@@ -3174,9 +3174,9 @@ Update the page and review to make sure everything looks good. Next, we'll go in
 <h3>Calendar Setup</h3>
 Once you have a Google Calendar set up, the calendar requires a bit of extra configuration to add to Wordpress. While this adds setup time, this is the only full-featured calendar that don't add additional subscription costs. You only have to do the setup once, and then it just works.
 
-To start, go to <em>Calendars &gt; Settings</em> in the sidebar, and follow the <a href="https://docs.simplecalendar.io/google-api-key/?utm_source=inside-plugin&amp;utm_medium=link&amp;utm_campaign=core-plugin&amp;utm_content=settings-link" target="_blank" rel="noopener">step-by-step guide</a> to getting your calendar key from Google.
-
-[events calendar, homepage]
+To start, go to <em>Calendars &gt; Settings</em> in the sidebar, and follow the <a href="https://docs.simplecalendar.io/google-api-key/?utm_source=inside-plugin&amp;utm_medium=link&amp;utm_campaign=core-plugin&amp;utm_content=settings-link" target="_blank" rel="noopener">step-by-step guide</a> to getting your calendar key from Google. Make sure you change the Google Calendar id!
+<blockquote>Hint: If the calendar won't show up properly, go to the Homepage and edit the row with the calendar widget. You can remove the widget, and then choose <em>Add Widget &gt; Simple Calendar</em> to re-add it. This should fix any issues.</blockquote>
+The site also comes with an <a href="http://activism.website/events/">events page</a>, which displays the calendar. This is great for search purposes, so someone looking can find your events page quickly. Make sure to verify that this works (if not, the fix is the same as for the homepage).
 <h3>Testimonials Setup</h3>
 Testimonials is the carousel of quotes on the home page where you can display member feedback or press quotes.
 
@@ -3275,20 +3275,38 @@ In the new few steps we'll choose the theme and import the content so that your 
 <h3>Get the Theme</h3>
 <ul>
  	<li>Log in to your Wordpress site by clicking the "WP Admin" button in Flywheel</li>
- 	<li>Under Appearance &gt; Themes, search for Talon and click Install</li>
+ 	<li>Under <em>Appearance &gt; Themes</em>, search for Talon, <em>Install</em> it, and <em>Activate</em></li>
 </ul>
-<h3>Get the Plugin</h3>
+<h3>Get the Plugins</h3>
 <ul>
- 	<li>Navigate to Plugins &gt; Add New in the sidebar</li>
- 	<li>Search for "One Click Demo Import"</li>
- 	<li>Choose "Switch to Manual Input"</li>
+ 	<li>Navigate to <em>Plugins &gt; Add New</em> in the sidebar</li>
+ 	<li>Add and activate the following plugins:
+<ul>
+ 	<li>Athemes Toolbox</li>
+ 	<li>Disable Comments</li>
+ 	<li>Give - Donation Plugin</li>
+ 	<li>Ninja Forms</li>
+ 	<li>One Click Demo Import</li>
+ 	<li>PageBuilder by SiteOrigin</li>
+ 	<li>Popup Addon by Ninja Forms</li>
+ 	<li>Simple Calendar</li>
+ 	<li>Social Icons Widget by WPZOOM</li>
+ 	<li>UpdraftPlus</li>
+ 	<li>Wired Impact Volunteer Management</li>
+ 	<li>WP Notification Bars</li>
+</ul>
+</li>
 </ul>
 <h3>Get the Content</h3>
-[zip download]
 <ul>
- 	<li>Download the file below and unzip it</li>
+ 	<li>Go to <em>Appearance &gt; Import Demo Data</em></li>
+ 	<li>Choose <em>Switch to Manual Input</em></li>
+ 	<li>Download <a href="https://github.com/vyedin/activism.website/archive/master.zip">this contents file</a> and unzip it</li>
  	<li>Upload the three files</li>
 </ul>
+<h3>Cleanup</h3>
+Under <em>Settings &gt; General</em>, change your site name and remove the tagline.
+
 Your site should start to look like this one! Good work!
 
 <a href="http://activism.website/plugins/">Next, we'll go through each section to customize it and make it our own.</a>]]></content:encoded>
